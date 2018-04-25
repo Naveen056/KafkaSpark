@@ -33,7 +33,7 @@ object SparkKafkaStreaming {
 //      })
 //    val departmentTraffic = departments.
 //      reduceByKey((total, value) => total + value)
-//    departmentTraffic.saveAsTextFiles("/user/dgadiraju/deptwisetraffic/cnt")
+//    departmentTraffic.saveAsTextFiles("/user/data")
 
     ssc.start()
     ssc.awaitTermination()
